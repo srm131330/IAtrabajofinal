@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: #ffffffd3;
+
+}
+header{
+    background: rgb(255, 255, 255);
+    width: 100%;
+
+}
+.menu{
+    background: rgb(133, 189, 223);
+    list-style: none;
+    margin: 0%;
+    padding: 5%;
+
+
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+background: rgb(255, 255, 255);
+padding: 30px 75px;
+display: inline-block;
+color: rgb(28, 92, 147);
+text-decoration: none;
+border-radius: 30px;
+font-size: 15px;
+box-shadow:  10px 10px 20px #2d639c9c
+}
+
+.menu li a:hover {
+background: rgb(41, 120, 184);
+color: rgb(231, 219, 214);
+}
+
+footer{
+    background-color: black;
+    text-decoration: none;
+    text-overflow:ellipsis;
+    color: blue;
+}

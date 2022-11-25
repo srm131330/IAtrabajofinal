@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.brd{
+    border: solid 1px green;
+}
+h1{
+    margin: 5% auto;
+    text-align: center;
+    width: 50%;
+}
+.container{
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 30px;
+    width: 70%;
+    box-shadow:  10px 10px 20px #bababa, -10px -10px 20px #ffffff;
+}
+.boxBtn{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+#btnStart{
+    background-color: rgb(13, 110, 254);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 15%;
+}
+
+#btnStart:hover{
+    background-color: rgb(20, 88, 190);
+
+}
+#label-container{
+    background-color: rgb(13, 190, 254);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 15%;
+}
+#webcam-container{
+   
+    font-size: 20px;
+    margin: 10px 660px;
+    width: 50%;
+}
+canvas{
+    border-radius: 30px;
+}
